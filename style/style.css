@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 15px;
+}
+
+.col-4{
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 15px;
+}
+
+.col-8{
+    width: 66.66%;
+    padding: 15px;
+}
+
+.col-12{
+    width: 100%;
+    padding: 15px;
+}
+
+.box{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* header */
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.auth-btns{
+    display: flex;
+    gap: 30px;
+}
+
+.auth-btns button:nth-child(1){
+    border: none;
+    background-color: transparent;
+    color: #0B132A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.auth-btns button:nth-child(2){
+    color: #F53855;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #F53855;
+    padding: 13px 45px;
+}
+
+
+/* section hero */
+
+
+.box-wrapper h1{
+    color: #0B132A;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    padding-bottom: 20px;
+}
+
+.box-wrapper p{
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.box-wrapper button{
+    border-radius: 10px;
+    background: #F53838;
+    color: #FFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 17px 0;
+    width: 250px;
+    /* border-radius: 10px;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(27px);    */
+    box-shadow: 0px 27px 27px 0px rgba(245, 56, 56, 0.2);
+    border-radius: 10px;
+}
