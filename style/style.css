@@ -12,6 +12,10 @@
     padding: 0 10px;
 }
 
+section{
+    padding: 50px;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -28,8 +32,18 @@
     padding: 15px;
 }
 
+.col-5{
+    width: 41.67%;
+    padding: 15px;
+}
+
 .col-6{
     width: 50%;
+    padding: 15px;
+}
+
+.col-7{
+    width: 58.33%;
     padding: 15px;
 }
 
@@ -134,3 +148,247 @@ a{
     box-shadow: 0px 27px 27px 0px rgba(245, 56, 56, 0.2);
     border-radius: 10px;
 }
+
+
+/* Section Features */
+
+.features .container{
+
+}
+
+.features-info{
+    padding-top: 103px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 0px 54px 57px 0px rgba(13, 16, 37, 0.2); */
+}
+
+.features-box{
+    border-right: 2px solid #EEEFF2;
+    width: 25%;
+}
+
+.info-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.features-box{
+    display: flex;  
+    gap: 36.5px;
+}
+
+
+/* Section Many-features */
+
+.main-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.main-features h2{
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.features-desc{
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.pluses{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.pluses p{
+    color: #4F5665;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* Section Plan */
+
+.box-choise{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-choise h2{
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.box-choise p{
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+
+.card{
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 760px;
+}
+
+.card:hover{
+    border: 2px solid #F53838;
+    transition: 1s;
+}
+
+.package{
+    padding-top: 80px;
+}
+
+.package h5{
+    color: #0B132A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+.points-desc{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.points-desc p{
+    color: #4F5665;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.prices h4{
+    color: #0B132A;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.prices button{
+    color: #F53838;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    padding: 13px 63px;
+    background-color: transparent;
+    margin: 20px 0 50px 0;
+}
+
+.prices button:hover{
+    transition: 0.6s;
+    color: #fff;
+    background: #F53838;
+}
+
+.prices span{
+    color: #4F5665;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* Section Huge */
+
+.map-info h2{
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+.map-info p{
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 155px;
+}
+
+
+/* Section Customer*/
+
+.title h2{
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.title p{
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.reviews{
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    min-height: 230px;
+}
+
+.client{
+    display: flex;
+    padding: 30px;
+}
+
+.client-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-client{
+    padding-left: 20px;
+}
+
+.client-div2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
