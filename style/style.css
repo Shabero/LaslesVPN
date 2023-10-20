@@ -257,6 +257,7 @@ a{
     justify-content: space-between;
     align-items: center;
     min-height: 760px;
+    text-align: center;
 }
 
 .card:hover{
@@ -365,30 +366,68 @@ a{
     padding-bottom: 60px;
 }
 
-.reviews{
-    border-radius: 10px;
-    border: 2px solid #DDD;
-    min-height: 230px;
-}
-
 .client{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.client-name {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.client-rate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.client-card h5{
+    color: #0B132A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.client-name p{
+    color: #4F5665;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.client-review-desc p{
+    color: #0B132A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.client-card{
+    border-radius: 10px;
+    border: 2px solid #DDD;
     padding: 30px;
 }
 
-.client-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.client-card:hover {
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    transition: 1s;
 }
 
-.name-client{
-    padding-left: 20px;
+.client-layout{
+    padding: 0 25px;
 }
 
-.client-div2{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
+/* Pagination */
 
