@@ -116,6 +116,12 @@ a{
     padding: 13px 45px;
 }
 
+.mobile-btn{
+    background-color: transparent;
+    border: none;
+    padding-right: 20px;
+}
+
 .mobile-wrapper{
     display: none;
 }

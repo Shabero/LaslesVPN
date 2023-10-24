@@ -71,6 +71,8 @@
 
 }
 
+
+
 @media(max-width:880px){
     .container{
         padding: 20px 10px;
@@ -88,14 +90,9 @@
         display: block;
     }
 
-    .mobile-button{
-        background-color: transparent;
-        border: none;
-        padding-right: 20px;
-    }
 
     .mobile-menu{
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         justify-content: center;
