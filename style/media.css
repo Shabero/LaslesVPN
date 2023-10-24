@@ -1,0 +1,160 @@
+@media(max-width:1200px){
+    .container{
+        padding: 56px 15px;
+    }
+
+    .hero h1{
+        font-size: 35px;
+    }
+
+    .features h1{
+        font-size: 21px;
+    }
+    
+    .features p{
+        font-size: 14px;
+    }
+
+        
+    .hero h2,
+    .many-features h2,
+    .plan h2,
+    .huge h2,
+    .customer h2,
+    .main-footer h2 {
+        font-size: 30px;
+    }
+    
+    .plan h4{
+        font-size: 21px;
+    }
+
+    .hero p,
+    .many-features p,
+    .plan p,
+    .huge p,
+    .customer p,
+    .main-footer p {
+        font-size: 14px;
+    }
+
+    .pluses p {
+        font-size: 14px;
+    }
+    
+    .client-layout{
+        padding: 0 20px;
+    }
+
+}
+
+@media(max-width:960px){
+    .container{
+        padding: 40px 15px;
+    }
+
+    .features-info{
+        padding: 0;
+    }
+
+    .box-choise{
+        padding: 0;
+    }
+    
+    .huge .container{
+        padding: 0;
+    }
+
+    .huge p{
+        padding-bottom: 50px;
+    }
+
+}
+
+@media(max-width:880px){
+    .container{
+        padding: 20px 10px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .auth-btns{
+        display: none;
+    }
+
+    .mobile-wrapper{
+        display: block;
+    }
+
+    .mobile-button{
+        background-color: transparent;
+        border: none;
+        padding-right: 20px;
+    }
+
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(0,0,0);
+        z-index: 999;
+        gap: 35px;
+    }   
+
+    .mobile-menu a{
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    .mobile-wrapper:hover+.mobile-menu{
+        display: flex;
+       
+    } 
+
+    .mobile-menu:hover{
+        display: flex;
+    }
+
+    .close-button{
+        border-radius: 10px;
+        background: #F53838;
+        border: none;
+        padding: 10px 25px;
+    }
+
+    .mobile-menu-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mobile-menu-btns button:nth-child(1){
+        border: none;
+        background-color: #fff;
+        color: #0B132A;
+        border-radius: 50px;
+        padding: 13px 45px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .mobile-menu-btns button:nth-child(2){
+        color: #F53855;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 50px;
+        color: #fff;
+        background-color: #F53838;
+        border: 1px solid #F53855;
+        padding: 13px 45px;
+    }
+}   

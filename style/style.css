@@ -6,6 +6,10 @@
     font-family: "Rubik", sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 .container{
     max-width: 1150px;
     margin: 0 auto;
@@ -111,6 +115,11 @@ a{
     border: 1px solid #F53855;
     padding: 13px 45px;
 }
+
+.mobile-wrapper{
+    display: none;
+}
+
 
 
 /* section hero */
@@ -344,6 +353,12 @@ a{
     padding-bottom: 155px;
 }
 
+.companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Section Customer*/
 
@@ -436,7 +451,7 @@ a{
     align-items: center;
     justify-content: space-between;
     padding-top: 82px;
-    padding-bottom: 181px;
+    padding-bottom: 150px;
 }
 
 .prev-next-buttons button{
@@ -459,7 +474,7 @@ a{
 }
 
 
-/* Footer */
+
 
 /* Section  subscribe*/
 
@@ -470,8 +485,20 @@ a{
     align-items: center;
     border-radius: 10px;
     background: #FFF;
+    width: 100%; /* Замените фиксированную ширину на 100% */
+    box-shadow: 2px 2px 99px -11px rgba(13, 16, 37, 0.2);
+    padding: 58px 70px;
     position: absolute;
-    top: 50px;
+    bottom: -200px;
+    left: 0;
+}
+
+.subscribe-container div{
+    width: 370px;
+}
+
+.customer .container{
+    position: relative;
 }
 
 .subscribe-container h2{
@@ -505,12 +532,10 @@ a{
 
 
 
-
-/* Section */
+/* Footer */
 .main-footer{
     background: #F8F8F8;
-    position: relative;
-    padding-top: 400px;
+    padding-top: 200px;
 }
 
 .footer-wrapper{
